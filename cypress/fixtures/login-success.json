@@ -1,0 +1,7 @@
+{
+  "status": "success",
+  "message": "ok",
+  "data": {
+    "token": "token-1"
+  }
+}

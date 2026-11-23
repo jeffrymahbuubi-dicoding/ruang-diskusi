@@ -1,0 +1,30 @@
+{
+  "status": "success",
+  "message": "ok",
+  "data": {
+    "threads": [
+      {
+        "id": "thread-1",
+        "title": "Cara menulis pengujian reducer",
+        "body": "<p>Apa langkah pertama untuk menguji reducer?</p>",
+        "category": "testing",
+        "createdAt": "2026-11-01T08:00:00.000Z",
+        "ownerId": "user-1",
+        "upVotesBy": ["user-2"],
+        "downVotesBy": [],
+        "totalComments": 2
+      },
+      {
+        "id": "thread-2",
+        "title": "Kapan memakai test double",
+        "body": "<p>Kapan sebuah fungsi API sebaiknya diganti dalam pengujian?</p>",
+        "category": "react",
+        "createdAt": "2026-11-02T09:30:00.000Z",
+        "ownerId": "user-2",
+        "upVotesBy": [],
+        "downVotesBy": ["user-1"],
+        "totalComments": 0
+      }
+    ]
+  }
+}

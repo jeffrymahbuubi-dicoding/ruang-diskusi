@@ -1,0 +1,35 @@
+.auth-page {
+  max-width: 28rem;
+  margin: 1rem auto 0;
+}
+
+.auth-page__lead {
+  margin: 0 0 1.25rem;
+  color: var(--color-muted);
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.auth-form__field {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth-form__note {
+  margin-top: 0.25rem;
+  color: var(--color-muted);
+}
+
+.auth-form__submit {
+  width: 100%;
+}
+
+.auth-form__hint {
+  margin: 0;
+  text-align: center;
+  color: var(--color-muted);
+}

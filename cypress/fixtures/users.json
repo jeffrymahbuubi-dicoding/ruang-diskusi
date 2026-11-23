@@ -1,0 +1,20 @@
+{
+  "status": "success",
+  "message": "ok",
+  "data": {
+    "users": [
+      {
+        "id": "user-1",
+        "name": "Penguji Satu",
+        "email": "tester@example.test",
+        "avatar": ""
+      },
+      {
+        "id": "user-2",
+        "name": "Penguji Dua",
+        "email": "tester2@example.test",
+        "avatar": ""
+      }
+    ]
+  }
+}

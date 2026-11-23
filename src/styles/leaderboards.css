@@ -1,0 +1,53 @@
+.leaderboards__title {
+  margin-bottom: 1rem;
+}
+
+.leaderboards__empty {
+  padding: 1.5rem;
+  color: var(--color-muted);
+  text-align: center;
+}
+
+.leaderboards-list {
+  display: grid;
+  gap: 0.6rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  counter-reset: rank;
+}
+
+.leaderboard-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.75rem 1rem;
+  background: var(--color-surface);
+  border: 1px solid var(--color-line);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  counter-increment: rank;
+}
+
+.leaderboard-item::before {
+  content: counter(rank);
+  min-width: 1.5rem;
+  color: var(--color-muted);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  text-align: right;
+}
+
+.leaderboard-item__name {
+  flex: 1;
+  min-width: 0;
+  overflow-wrap: anywhere;
+  font-weight: 600;
+}
+
+.leaderboard-item__score {
+  color: var(--color-primary-dark);
+  font-size: 1.15rem;
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}

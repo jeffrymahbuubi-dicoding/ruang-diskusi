@@ -1,0 +1,107 @@
+.home-page h1,
+.add-thread-page h1 {
+  margin-bottom: 1rem;
+}
+
+.category-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.category-filter__item {
+  padding: 0.35rem 0.9rem;
+  border: 1px solid var(--color-line);
+  border-radius: 999px;
+  background: var(--color-surface);
+  color: var(--color-muted);
+  font: inherit;
+  cursor: pointer;
+}
+
+.category-filter__item:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+}
+
+.category-filter__item.is-active {
+  border-color: var(--color-primary-dark);
+  background: var(--color-primary-dark);
+  color: var(--color-on-primary);
+}
+
+.threads-list {
+  display: grid;
+  gap: 1rem;
+}
+
+.threads-list__empty {
+  padding: 2rem 0;
+  color: var(--color-muted);
+  text-align: center;
+}
+
+.thread-item {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.thread-item__category {
+  justify-self: start;
+  padding: 0.1rem 0.6rem;
+  border: 1px solid var(--color-line);
+  border-radius: 999px;
+  color: var(--color-muted);
+  font-size: 0.85rem;
+}
+
+.thread-item__title {
+  margin: 0;
+  font-size: 1.2rem;
+  overflow-wrap: anywhere;
+}
+
+.thread-item__title a {
+  text-decoration: none;
+}
+
+.thread-item__title a:hover {
+  text-decoration: underline;
+}
+
+.thread-item__body {
+  margin: 0;
+  color: var(--color-text);
+  overflow-wrap: anywhere;
+}
+
+.thread-item__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0.75rem;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.thread-item__owner {
+  color: var(--color-text);
+  font-weight: 600;
+}
+
+.thread-form {
+  display: grid;
+  gap: 1rem;
+  max-width: 40rem;
+}
+
+.thread-form .button {
+  justify-self: start;
+}
+
+@media (min-width: 768px) {
+  .thread-item {
+    padding: 1.25rem 1.5rem;
+  }
+}
