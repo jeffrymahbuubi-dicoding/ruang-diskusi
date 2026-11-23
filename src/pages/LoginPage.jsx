@@ -20,7 +20,7 @@ function LoginPage() {
   return (
     <section className="auth-page card">
       <h1>Masuk</h1>
-      <p className="auth-page__lead">Masuk untuk membuat diskusi, berkomentar, dan memberi suara.</p>
+      <p className="auth-page__lead">Masuk untuk membuat diskusi, berkomentar, dan memberi suara pada thread yang kamu sukai.</p>
       <LoginInput login={onLogin} />
     </section>
   );
