@@ -65,6 +65,7 @@ Aplikasi: https://ruang-diskusi-seven.vercel.app
 .github/workflows/  alur kerja CI (GitHub Actions)
 .storybook/         konfigurasi Storybook
 cypress/            pengujian end-to-end, fixture, dan berkas dukungan
+screenshot/         bukti CI/CD: pemeriksaan gagal, pemeriksaan lulus, dan proteksi branch
 src/
   components/   komponen UI yang dapat dipakai ulang
   hooks/        custom hooks
@@ -75,6 +76,7 @@ src/
   utils/        akses API dan fungsi bantu
   App.jsx       komponen aplikasi dan daftar rute
   index.jsx     titik masuk aplikasi
+vercel.json         pengaturan rute untuk deployment di Vercel
 ```
 
 ## API yang digunakan
