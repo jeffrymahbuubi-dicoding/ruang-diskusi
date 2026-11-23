@@ -57,7 +57,7 @@ dibuka dengan komentar skenario pengujian.
 - CD: Vercel men-deploy setiap perubahan pada `master`. `vercel.json` mengarahkan semua alamat ke `index.html`
   agar rute sisi klien (misalnya `/leaderboards`) tetap terbuka saat halaman dimuat ulang.
 
-Aplikasi: <diisi setelah deploy>
+Aplikasi: https://ruang-diskusi-seven.vercel.app
 
 ## Struktur folder
 
