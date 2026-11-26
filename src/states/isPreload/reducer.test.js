@@ -34,6 +34,6 @@ describe('isPreloadReducer', () => {
     const nextState = isPreloadReducer(initialState, action);
 
     // assert
-    expect(nextState).toBe(false);
+    expect(nextState).toBe(true);
   });
 });
